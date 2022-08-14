@@ -60,8 +60,8 @@ namespace ReputationPlugin
                     faction.name, // factionNameColumn
                     faction.rank.ToString(), // rankColumn
                     faction.rep.ToString(), // repColumn
-                    faction.requiredRep.ToString(), // requiredRepColumn
                     faction.remainingRep.ToString(), // remainingRepColumn
+                    faction.requiredRep.ToString(), // requiredRepColumn
                     faction.rank10Remaining.ToString(), // rank10RemainingColumn,
                     faction.totalRep.ToString(), // totalRepColumn
                     

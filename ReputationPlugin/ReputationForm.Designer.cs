@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             this.topPanel = new System.Windows.Forms.Panel();
+            this.dateLabel = new System.Windows.Forms.Label();
             this.rank10CheckBox = new System.Windows.Forms.CheckBox();
             this.refreshButton = new System.Windows.Forms.Button();
             this.reputationListView = new System.Windows.Forms.ListView();
@@ -40,7 +41,6 @@
             this.remainingRepColumn = new System.Windows.Forms.ColumnHeader();
             this.rank10RemainingColumn = new System.Windows.Forms.ColumnHeader();
             this.totalRepColumn = new System.Windows.Forms.ColumnHeader();
-            this.dateLabel = new System.Windows.Forms.Label();
             this.topPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +54,14 @@
             this.topPanel.Name = "topPanel";
             this.topPanel.Size = new System.Drawing.Size(566, 44);
             this.topPanel.TabIndex = 0;
+            // 
+            // dateLabel
+            // 
+            this.dateLabel.AutoSize = true;
+            this.dateLabel.Location = new System.Drawing.Point(223, 16);
+            this.dateLabel.Name = "dateLabel";
+            this.dateLabel.Size = new System.Drawing.Size(0, 15);
+            this.dateLabel.TabIndex = 4;
             // 
             // rank10CheckBox
             // 
@@ -82,8 +90,8 @@
             this.factionNameColumn,
             this.rankColumn,
             this.repColumn,
-            this.requiredRepColumn,
             this.remainingRepColumn,
+            this.requiredRepColumn,
             this.rank10RemainingColumn,
             this.totalRepColumn});
             this.reputationListView.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -123,14 +131,6 @@
             // totalRepColumn
             // 
             this.totalRepColumn.Text = "Total Rep";
-            // 
-            // dateLabel
-            // 
-            this.dateLabel.AutoSize = true;
-            this.dateLabel.Location = new System.Drawing.Point(223, 16);
-            this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(0, 15);
-            this.dateLabel.TabIndex = 4;
             // 
             // ReputationForm
             // 
